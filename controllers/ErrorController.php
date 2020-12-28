@@ -10,7 +10,7 @@ class ErrorController extends Core\Controller
     public function __construct()
     {
         parent::__construct();
-        //$this->isLoggedIn();
+        $this->isLoggedIn();
     }
 
     public function index()

@@ -4,6 +4,8 @@ namespace Core;
 
 class Controller extends Acl
 {
+  public $controller_name;
+
   public function __construct()
   {
     parent::__construct();
